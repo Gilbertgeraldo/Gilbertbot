@@ -20,7 +20,7 @@ figlet Fernazer system
 echo -e "> Silahkan Ketik Enter Untuk Melanjutkan"
 read enter
 clear
-echo -e "\033[1;33mSCRIPT INI GRATIS KOK, CUMA HERMAN MINTA TOLONG\nJANGAN LUPA SUBSCRIBE YA\n CHANNEL YOUTUBE HERMAN CHANEL\033[0m\n"
+echo -e "\033[1;33mSCRIPT INI GRATIS KOK, CUMA GILBERT MINTA TOLONG\nJANGAN LUPA FOLLOW YA\n FOLLOW IG:gaada_apa_apawkwk\033[0m\n"
 echo -e "> enter to next"
 read enter
 ketik
