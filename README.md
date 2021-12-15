@@ -1,7 +1,7 @@
 ##CARA INSTALL MELALUI GIT
 
 > pkg install git
-> gitclone https://github.com/Fernazer
+> gitclone https://github.com/Gilbertgeraldo/Gilbertbot
 > cd Fernazer
 > bash install.sh
 > npm start
@@ -12,7 +12,7 @@
 > termux-setup-storage [Y]
 > cd /sdcard
 > cd -r (namafile) /$HOME
-> cd (namafile)
+> cd (namafile) 
 > bash install.sh 
 > npm start
 > Now scan the QR
