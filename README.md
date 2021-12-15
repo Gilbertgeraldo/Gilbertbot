@@ -1,4 +1,4 @@
-##CARA INSTALL MELALUI GIT
+##CARA INSTALL MELALUI TERMUX
 
 > pkg install git
 > gitclone https://github.com/Gilbertgeraldo/Gilbertbot
@@ -7,12 +7,3 @@
 > npm start
 > scan qr
 
-##CARA INSTALL
-
-> termux-setup-storage [Y]
-> cd /sdcard
-> cd -r (namafile) /$HOME
-> cd (namafile) 
-> bash install.sh 
-> npm start
-> Now scan the QR
