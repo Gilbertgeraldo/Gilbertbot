@@ -1,5 +1,5 @@
 // FOLLOW LAH BG IG GW: gaada_apa_apawkwk
-//JANGAN LUPA HARGAI
+//JAN94GAN LUPA HARGAI
 //FOLLOW ITU GRATIS
 const {
    WAConnection,
@@ -46,17 +46,17 @@ const { ind } = require('./bahasa')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Hermansyah\n'  
-            + 'ORG: Herman Botz;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=6283146208804:+6283146208804\n'  //ganti nomor lu
+            + 'FN:Gilbert\n'  
+            + 'ORG: Gilbert Bot;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=6281235136510:+6281235136510\n'  //ganti nomor lu
             + 'END:VCARD' 
-prefix ='' 
+prefix ='.' 
 blocked = [] 
 replitx = '*HERMAN BOTZ*' 
 ari = '*HeRmAn BoTz*'
 limitawal = 99999 
 memberlimit = 11111 
-namabot = 'BERT BOTZ'
+namabot = 'GILBERT BOT'
 cr = '*「 BERT BOTZ 」*' 
 status = "Global Bot Whatsapp" 
 lolkey = '682aeab645ed61cf137cf971' 
@@ -111,7 +111,7 @@ const prem = JSON.parse(fs.readFileSync('./database/pengguna/premium.json'))
 const adm = JSON.parse(fs.readFileSync('./database/pengguna/admin.json'))
 const bad = JSON.parse(fs.readFileSync('./database/kelompok/bad.json'))
 const badword = JSON.parse(fs.readFileSync('./database/kelompok/badword.json'))
-/*********** BY BERT BOTZ ***********/
+/*********** BY GILBERT BOTZ ***********/
 
 /********** FUNCTION ***************/
 const getLevelingXp = (sender) => {
@@ -294,7 +294,7 @@ function kyun(seconds){
 }
 /********** FUNCTION ***************/
 
-console.log(color('BOT SUDAH AKTIF SUBSCRIBE HERMAN CHANEL','blue'))
+console.log(color('BOT SUDAH AKTIF ','blue'))
 const client = new WAConnection()
 //WWEB 
 client.version = [2, 2119, 6]
@@ -306,7 +306,7 @@ client.on('credentials-updated', () => {
    console.log(`credentials updated!`)
    fs.writeFileSync('./herman.json', JSON.stringify(authInfo, null, '\t'))
 })
-fs.existsSync('./herman.json') && client.loadAuthInfo('./herman.json')
+fs.existsSync('./Gilbert.json') && client.loadAuthInfo('./Gilbert.json')
 client.connect();
 
 
@@ -1616,7 +1616,7 @@ break
 		case 'leaderboard':
 		case 'lb':
 				_level.sort((a, b) => (a.xp < b.xp) ? 1 : -1)
-				uang.sort((a, b) => (a.uang < b.uang) ? 1 : -1)
+				uang.sort((a, b) => (a.uang < b.uang21 : -1)
 				let leaderboardlvl = '-----[ *LEADERBOARD LEVEL* ]----\n\n'
 				let leaderboarduang = '-----[ *LEADERBOARD UANG* ]----\n\n'
 				let nom = 0
@@ -1811,7 +1811,7 @@ break
 				if (isBanned) return reply('Maaf kamu sudah terbenned!')
                     wew = fs.readFileSync(`./src/logobot.jpg`)
                       lzain = `┏━۝ ̷ ✪ *INFO BOT* ✪ ۝ ̷
-╠◙Nama:Bert Botz
+╠◙Nama:Gilbert Bot
 ╠◙Ig: @gaada_apa_apawkwk
 ╠◙yt:-
 ╠◙nama owner:Gilbert
