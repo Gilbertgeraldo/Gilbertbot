@@ -52,11 +52,11 @@ const vcard = 'BEGIN:VCARD\n'
             + 'END:VCARD' 
 prefix ='.' 
 blocked = [] 
-replitx = '*HERMAN BOTZ*' 
-ari = '*HeRmAn BoTz*'
+replitx = '*Bert BOTZ*' 
+ari = '*Bert BoTz*'
 limitawal = 99999 
 memberlimit = 11111 
-namabot = 'GILBERT BOT'
+namabot = 'Bert BOT'
 cr = '*「 BERT BOTZ 」*' 
 status = "Global Bot Whatsapp" 
 lolkey = '682aeab645ed61cf137cf971' 
