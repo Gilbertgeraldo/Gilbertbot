@@ -10,5 +10,5 @@ global.APIKeys = { // APIKey woy tes
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'tesdoang' // untuk keseluruhan fitur
 })
-tes_doang = 'yhahah wahyu sc numpang jan sok ngaku2 lu'
+tes_doang = 'yhahah wahyu mau curi base gw ya kontol???'
 }
